@@ -1,0 +1,147 @@
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  padding-bottom: 50px;
+}
+
+.header-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-body {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-text {
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 400px;
+}
+
+.header-button {
+  padding: 5px 30px;
+  background-color: lightblue;
+}
+
+.img-box {
+  display: flex;
+  background-color: grey;
+  width: 400px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.header-links {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(231, 190, 190);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-container {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-images {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.unit {
+  max-width: 150px;
+  text-align: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: blue;
+  border-style: solid;
+  border-radius: 10%;
+}
+
+.quote {
+  max-width: 800px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.signature-container {
+  width: 800px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  margin-top: -50px;
+  margin-right: 50px;
+}
+
+.signature {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blue-label {
+  width: 1000px;
+  height: 100px;
+  background-color: rgb(101, 101, 204);
+  margin: 50px;
+  border-radius: 1%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.bottom-button {
+  padding: 5px 30px;
+  background-color: lightblue;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 65px;
+}
